@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\DbModels.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="sqlSugarCore" Version="5.0.0.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="DTOModels\obj\Debug\netcoreapp3.1\DTOModels.csprojAssemblyReference.cache" />
+    <None Remove="DTOModels\obj\DTOModels.csproj.nuget.dgspec.json" />
+    <None Remove="DTOModels\obj\Debug\netcoreapp3.1\DTOModels.assets.cache" />
+  </ItemGroup>
+</Project>

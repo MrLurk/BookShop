@@ -1,0 +1,2 @@
+2020-03-10 13:59:27.7238 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2020-03-10 13:59:27.7329 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: TraceingLog
